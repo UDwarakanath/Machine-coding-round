@@ -1,0 +1,25 @@
+.accorian-container {
+  width: 90vw;
+  /* background-color: bisque; */
+  margin: 5vw;
+}
+.Accordian {
+  width: 70vw;
+  border: 1px solid gey;
+ 
+  margin: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  cursor: pointer;
+  background-color: bisque;
+  border: 1px solid rgb(203, 196, 73);
+}
+.info{
+    padding: 1rem;
+    background-color: blueviolet;
+    color: #fff;
+}
