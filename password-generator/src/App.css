@@ -1,0 +1,68 @@
+.container{
+  background-color: #24232b;
+  padding: 24px;
+}
+
+.header{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+button{
+  background-color: #2a8b82;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.charlength{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding:10px
+}
+
+.charlength > span{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.checkboxes{
+  color: #fff;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.checkboxes div{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+
+.generateBtn{
+  width: 100%;
+  font-size: 18px;
+}
+
+.errorMessage{
+  color:red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.check_strength{
+  color: #388E3C;
+  font-weight: 700;
+}
