@@ -9,9 +9,12 @@ const StarRating = ({ maxRating, currentRating, setCurrentRating }) => {
         Array.from({ length: maxRating }).map((i, index) => (
           <span
             onClick={() => setCurrentRating(index + 1)}
-            onMouseEnter={() => setHoverState(index+1)}
+            onMouseEnter={() => setHoverState(index + 1)}
             onMouseLeave={() => setHoverState(null)}>
-            <Star filled={hoverState != null ? index < hoverState : index < currentRating} />
+            <Star filled={
+              hoverState != null ?
+                index < hoverState
+                : index < currentRating} />
           </span>
         ))
       }
