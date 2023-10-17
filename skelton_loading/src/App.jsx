@@ -1,8 +1,10 @@
+import SkeletonPost from "./skeletons/SkeletonPost"
+
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
+  return <div >
+   <SkeletonPost/>
+  </div>
 }
 
 export default App

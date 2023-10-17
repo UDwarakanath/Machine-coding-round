@@ -1,5 +1,5 @@
 .skeleton{
-  background-color: rgb(199, 199, 199);
+  background-color: rgba(199, 199, 199, 0.732);
   margin: 0.75rem 0;
   border-radius: 0.25rem;
 }
@@ -14,7 +14,7 @@
 }
 
 .skeleton.width-100{
-  width: 100%;
+  width: 100%; 
 }
 
 .skeleton.width-50{

@@ -3,10 +3,18 @@
   margin: 0 auto;
   padding: 2rem;
 }
-
+button{
+  z-index: -1;
+}
 .model-container{
+  background-color: rgba(0, 0, 0, 0.5);
   width: 30%;
-  height: 30%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  padding: 2rem;
 }
 
 header{

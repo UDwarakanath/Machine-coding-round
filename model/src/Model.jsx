@@ -1,7 +1,8 @@
 const Model = ({setOpenModel}) => {
       return (
             <div className="model-container">
-                  <header>
+                 <dic className="container">
+                 <header>
                         <h6>Are Your sure</h6>
                         <span className="closeBtn" onClick={()=>setOpenModel(false)}>X</span>
                   </header>
@@ -11,6 +12,7 @@ const Model = ({setOpenModel}) => {
                         nobis magnam nesciunt molestiae ex pariatur perferendis
                         iste dolores labore reiciendis.
                   </p>
+                 </dic>
             </div>
       );
 };
