@@ -3,7 +3,9 @@ import SkeletonPost from "./skeletons/SkeletonPost"
 
 const App = () => {
   return <div >
-   <SkeletonPost/>
+   {
+    Array.from({length:10}).map(item=><SkeletonPost/>)
+   }
   </div>
 }
 
