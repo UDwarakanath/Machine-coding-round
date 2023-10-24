@@ -1,0 +1,14 @@
+.inputClass{
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 30rem;
+}
+
+.classLabel{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
