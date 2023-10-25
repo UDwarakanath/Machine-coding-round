@@ -1,8 +1,8 @@
 import useForm from "./useForm"
 import validateInfo from "./validateInfo"
 import "./Form.css"
-const FormSignUp = () => {
-  const {handleChanges,values,handleSubmit,errors} = useForm(validateInfo)
+const FormSignUp = ({setIsSubmitted}) => {
+  const {handleChanges,values,handleSubmit,errors} = useForm(validateInfo,setIsSubmitted)
   return (
     <div className="form_input">
       <form  className="form" onSubmit={handleSubmit}>
