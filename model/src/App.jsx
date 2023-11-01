@@ -5,8 +5,8 @@ import Model from "./Model";
 const App = () => {
       const [openModel, setOpenModel] = useState(false);
       return (
-            <div>
-                  <button onClick={() => setOpenModel(true)}>Open Model</button>
+            <div >
+                  <button className={openModel ? "open" : null} onClick={() => setOpenModel(true)}>Open Model</button>
                   {openModel && <Model setOpenModel={setOpenModel} />}
             </div>
       );
