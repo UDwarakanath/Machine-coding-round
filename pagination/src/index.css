@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main{
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
 .product{
   display: flex;
   flex-direction: column;
@@ -17,7 +23,6 @@ body {
   font-size: 24px;
   width: 300px;
   color: rgb(0, 0,100);
- 
   cursor: pointer;
 }
 
@@ -33,4 +38,21 @@ img{
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
+}
+.pages{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.arrow{
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.page_numbers{
+  background-color: #504d4d;
+  padding: 10px;
+  margin: 5px;
+  color: aliceblue;
+  cursor: pointer;
 }
